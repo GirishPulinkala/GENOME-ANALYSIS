@@ -1,0 +1,12 @@
+	STAR --runThreadN 8 --twopassMode Basic --genomeDir /home/girishp/genome_analysis/analyses/star/genome --readFilesIn /home/girishp/genome_analysis/data/transcriptome/trimmed/SRR6040096_scaffold_10.1.fastq.gz /home/girishp/genome_analysis/data/transcriptome/trimmed/SRR6040096_scaffold_10.2.fastq.gz --readFilesCommand zcat --outFileNamePrefix /home/girishp/genome_analysis/analyses/star_out/SRR6040096_STAR_ " "
+	STAR version: 2.7.9a   compiled: 2021-10-20T18:01:41+0200 rackham5.uppmax.uu.se:/sw/bioinfo/star/2.7.9a/src/STAR-2.7.9a/source
+May 19 12:44:14 ..... started STAR run
+May 19 12:44:14 ..... loading genome
+May 19 12:44:15 ..... started 1st pass mapping
+May 19 12:45:23 ..... finished 1st pass mapping
+May 19 12:45:23 ..... inserting junctions into the genome indices
+May 19 12:45:38 ..... started mapping
+May 19 12:47:30 ..... finished mapping
+May 19 12:47:30 ..... finished successfully
+/var/spool/slurmd/job6222439/slurm_script: line 19: --outSAMtype: command not found
+slurmstepd: error: *** JOB 6222439 ON s48 CANCELLED AT 2022-05-19T13:00:16 ***
