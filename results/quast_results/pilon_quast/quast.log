@@ -1,0 +1,62 @@
+/sw/apps/bioinfo/quast/5.0.2/snowy/bin/quast.py -o /home/girishp/genome_analysis/analyses/quast_results/pilon_quast /home/girishp/genome_analysis/analyses/pilon_assembly/pilon_10_scaffold.fasta
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.62.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2022-05-13 13:45:08
+
+Logging to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/quast.log
+NOTICE: Maximum number of threads is set to 4 (use --threads option to set it manually)
+
+CWD: /domus/h1/girishp/genome_analysis/code
+Main parameters: 
+  MODE: default, threads: 4, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Contigs:
+  Pre-processing...
+  /home/girishp/genome_analysis/analyses/pilon_assembly/pilon_10_scaffold.fasta ==> pilon_10_scaffold
+
+2022-05-13 13:45:14
+Running Basic statistics processor...
+  Contig files: 
+    pilon_10_scaffold
+  Calculating N50 and L50...
+    pilon_10_scaffold, N50 = 349195, L50 = 15, Total length = 28153195, GC % = 31.64, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/basic_stats/Nx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/basic_stats/GC_content_plot.pdf
+  Drawing pilon_10_scaffold GC content plot...
+    saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/basic_stats/pilon_10_scaffold_GC_content_plot.pdf
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2022-05-13 13:45:17
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2022-05-13 13:45:18
+RESULTS:
+  Text versions of total report are saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/report.html
+  PDF version (tables and plots) is saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/report.pdf
+  Icarus (contig browser) is saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/icarus.html
+  Log is saved to /home/girishp/genome_analysis/analyses/quast_results/pilon_quast/quast.log
+
+Finished: 2022-05-13 13:45:18
+Elapsed time: 0:00:09.774631
+NOTICEs: 2; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!

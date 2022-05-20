@@ -1,0 +1,22 @@
+Assembly	pilon_10_scaffold
+# contigs (>= 0 bp)	566
+# contigs (>= 1000 bp)	566
+# contigs (>= 5000 bp)	543
+# contigs (>= 10000 bp)	456
+# contigs (>= 25000 bp)	119
+# contigs (>= 50000 bp)	59
+Total length (>= 0 bp)	28153195
+Total length (>= 1000 bp)	28153195
+Total length (>= 5000 bp)	28084627
+Total length (>= 10000 bp)	27400921
+Total length (>= 25000 bp)	22172654
+Total length (>= 50000 bp)	20244467
+# contigs	566
+Largest contig	2785022
+Total length	28153195
+GC (%)	31.64
+N50	349195
+N75	32126
+L50	15
+L75	81
+# N's per 100 kbp	0.00
